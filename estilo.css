@@ -1,0 +1,131 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: #87aab8;
+	color: #293b44;
+}
+
+nav p{
+	font-family: 'ComingSoon';
+	font-size: 42px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+body h1{
+	font-family: 'AmaticSC-Bold';
+	margin-top: 0px;
+	margin-bottom: 30px;
+	font-size: 30px;
+}
+
+
+
+header {
+	width: 270px;
+	position: fixed;
+	z-index: 1000;
+}
+
+
+nav ul {
+	list-style: none;
+	background-color: #ecf7ff;
+	text-align: left;
+	padding: 25px;
+	margin: 0;
+	min-height: 20000px;
+}
+
+nav li {
+	font-family: 'AmaticSC-Bold';
+	width: 160px;
+	height: 50px;
+	border-bottom: none;
+	line-height: 50px;
+	font-size: 1.4em;
+	margin-right: -4px;
+	text-decoration: none;
+	color: #fff;
+	display: block;
+	transition: 1s background-color;
+}
+
+hr {
+  border:none;
+  border-top:7px dotted #4f748b;
+  color:#fff;
+  background-color:#fff;
+  height:1px;
+  margin-bottom: 0px;
+}
+
+nav a{
+	text-decoration: none;
+	color: #293b44;
+	display: inline;
+}
+
+nav li:hover {
+	background-color: #87aab8;
+}
+
+nav li:focus { 
+	background-color: #555e5e;
+	color: #444;
+	cursor: default;
+}
+
+div{
+	padding-left: 340px;
+	padding-top: 1px;
+	position: relative;
+}
+
+footer{
+	margin-top: 50px;
+}
+
+.profile_pic{
+	width: 170px;
+	height: 150px;
+	border-style: solid;
+}
+
+.social{
+	width: 30px;
+	height: 30px;
+	float: left;
+}
+
+.linha{
+	display: flex;
+	flex-wrap: wrap;
+	padding: 10px;
+}
+
+.art{
+	width: 30%;
+}
+
+@media screen and (max-width: 800px) {
+.coluna {
+   flex: 50%;
+   max-width: 100%;
+   }
+}
+
+.coluna img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+@font-face {
+    font-family: AmaticSC-Bold;
+    src: url(AmaticSC-Bold.ttf);
+}
+
+@font-face {
+    font-family: ComingSoon;
+    src: url(ComingSoon.ttf);
+}
